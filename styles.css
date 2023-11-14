@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Signika&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: gray;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+}
+
+#root {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+table {
+   border-collapse: collapse;
+   border-radius: 5px;
+   width: 50%;
+   background-color: rgb(241, 241, 241);
+}
+
+td {
+   border: 1px solid black;
+   height: 50px;
+   text-align: center;
+   font-size: 2em;
+   transition: 0.5s;
+}
+
+td:hover {
+   cursor: pointer;
+   color: white;
+   background-color: black;
+}
